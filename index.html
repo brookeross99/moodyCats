@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Moody Cat</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script defer type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+  <header>
+      <h1>Moody Cat Voting</h1>
+  </header>
+    
+  <form id="moody-form">
+    <h2>How do you feel today?</h2>
+      <h3>On a scale of 1-3(1=bad, 3=great!)</h3>
+    <label for="rating">Rating: </label>"
+
+  </form> 
+
+  <div id="vote-options" class="vote-options">
+    <button onClick="vote(1)">1 </button>
+    <button onClick="vote(-1)">2 </button>
+    <button onClick="showHistoricVotes()">3 </button>
+      
+      <div>
+        <img id="image-to-vote-on" class="col-lg"></img>
+      </div>
+    
+  </div>
+
+  <div id="vote-results"  class="vote-results">
+    <button onClick="showVoteOptions()">Show Vote Options</button>
+      <div id="grid" class="imgrid"></div>
+   </div>
+
+</body>
+</html>
