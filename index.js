@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-
+//change fetch to different link (db.json server)
     fetch('https://api.thecatapi.com/v1/images/search?api_key=live_cG4QRIvo3Ig0eDPabHxusnqYCqwkypPg4JxYoLAnJ6dxDGSdjSYjGMulIeUSttx8&limit=5')
     .then(res => res.json())
     .then(catData=>{
