@@ -36,3 +36,10 @@ header {
   margin: 1rem 2rem;
   box-shadow: 3px 4px #f89c24
 }
+
+form {
+  padding: 0.5rem;
+  width: 100%;
+  color: white;
+  background-color: rgb(59, 54, 43);
+}
